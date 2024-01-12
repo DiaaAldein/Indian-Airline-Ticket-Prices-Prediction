@@ -5,6 +5,7 @@ import joblib
 import sklearn
 import category_encoders
 from datetime import datetime, time
+from xgboost import XGBRegressor
 
 model = joblib.load('model.pkl')
 features = joblib.load('features.pkl')
